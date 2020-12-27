@@ -310,10 +310,10 @@ h2 {
     width: 370px;
     height: 294px;
     margin-right: 30px;
-    background-image: url(./images/desktop.jpg);
+    /* background-image: url(./images/desktop.jpg);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .working-item:nth-child(2) {
     position: relative;
@@ -321,10 +321,10 @@ h2 {
     width: 370px;
     height: 294px;
     margin-right: 30px;
-    background-image: url(./images/box.jpg);
+    /* background-image: url(./images/box.jpg);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .working-item:nth-child(3) {
     position: relative;
@@ -332,10 +332,10 @@ h2 {
     width: 370px;
     height: 294px;
     margin-right: 30px;
-    background-image: url(./images/creativ.jpg);
+    /* background-image: url(./images/creativ.jpg);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .working-solution {
     position: absolute;
@@ -438,9 +438,9 @@ h2 {
     
     .social-link:hover,
     .social-link:focus {
-        fill: #ffffff;
+        /* background-color: #ffffff; */
         background-color: var(--link-color-origin);
-        fill:  var(--link-color-origin);
+        fill:  #FFFFFF;
         transition-property: var(--link-color-origin);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
